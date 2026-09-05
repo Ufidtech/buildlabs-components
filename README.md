@@ -1,6 +1,6 @@
 # BuildLabs UI Component Library 🧱
 
-A professional, portfolio-ready React component library built for BuildLabs Internship Task 2. This project demonstrates core frontend engineering principles including Component APIs, Component Composition, and State Management using React and Vite.
+A professional, portfolio-ready React component library built for BuildLabs Internship Task 2. This project  core frontend development principles including Component APIs, Component Composition, and State Management using React and Vite.
 
 ## 🚀 Live Demo
 **Vercel Deployment:** https://buildlabs-components.vercel.app/
@@ -13,7 +13,7 @@ A professional, portfolio-ready React component library built for BuildLabs Inte
 
 ## 📦 Components Library
 
-### 1. `<Button />` (The Master Brick)
+### 1. `<Button />` (Foundational brick)
 A foundational, reusable button component that accepts dynamic props for styling and behavior.
 *   **Props:**
     *   `children` (node): The text or elements inside the button.
@@ -45,13 +45,10 @@ A customizable banner for system messages, utilizing JavaScript template literal
     *   `type` (string): Defines the semantic meaning (e.g., `"info"`, `"success"`). Default: `"info"`.
     *   `message` (string): The alert text.
 
-## 🧠
+## 🧠 Reflection
 Building this library to me was a vital transition from static HTML/CSS to Declarative Programming. The most valuable takeaway was understanding the separation of **Props** (data passed down, like DNA) and **State** (internal memory, like mood). By utilizing template literals for dynamic class injection (e.g., ``className={`btn btn-${variant}`}``), I was able to write highly modular, DRY (Don't Repeat Yourself) code. Component composition—specifically nesting the `Button` within the `Card` and `Modal`—highlighted how powerful React is for scaling enterprise-level UI systems without copying logic.
 
 ## 👨‍💻 Author
 **Ibrahim Danjuma**
 *   GitHub: [@Ufidtech](https://github.com/Ufidtech)
 *   *Built for the BuildLabs Frontend development Intership Task2*
-README.md
-README.md
-Loading README.md.Displaying README.md.
